@@ -28,7 +28,7 @@ app.post('/mail',(req,res)=>{
 
 	var mailOptions = {
 	  from: 'mahadevan21csc@gmail.com',
-	  to: 'nmurali1907@gmail.com',
+	  to: 'info@ozsumservices.com',
 	  subject: 'User Form submission',
 	  html: `User name: ${formdata.name}<br>
 
