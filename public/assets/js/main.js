@@ -134,8 +134,8 @@ themeButton.addEventListener('click', () => {
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
     // We save the theme and the current icon that the user chose
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-icon', getCurrentIcon())
+    //localStorage.setItem('selected-theme', getCurrentTheme())
+    //localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
 //form submisssion
