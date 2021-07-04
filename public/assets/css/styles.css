@@ -428,7 +428,7 @@ img {
   color:var(--title-color);
   word-spacing: 0.6rem;
   font-size: var(--h4-font-size);
-  text-align: left;
+  text-align: justify;
   line-height: 1.8rem;
   margin: 2rem 0 2.5rem;
 }
