@@ -204,7 +204,7 @@ themeButton.addEventListener('click', () => {
           email:content[1].value,
           message:content[2].value
         }
-          await  axios.post('/mail',formData1).then(res=>console.log(res)).catch(error=>console.log(error))
+          await  axios.post('/mai',formData1).then(res=>console.log(res)).catch(error=>console.log(error))
           mess.classList.add('active__message');   
           content[0].value=" ";       
           content[1].value=" ";       
